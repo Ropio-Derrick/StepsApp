@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "steps",
-    "slug": "steps",
+    "slug": "steps-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "461fe2d6-0444-4a87-bd1c-9c343f66baa9"
+      }
+    },
+    "owner": "ropioderrick"
   }
 }
